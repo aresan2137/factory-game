@@ -1,0 +1,11 @@
+{
+    "mods": [
+        {
+            "name": "base mod",
+            "version": "0.1.1",
+            "description": "This is an base mod containing basic things.",
+            "author": "symsq2",
+            "adds_buildings": 4
+        }
+    ]    
+}

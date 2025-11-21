@@ -1,0 +1,24 @@
+{
+  "name": "sml-syntax",
+  "displayName": "SML Syntax",
+  "publisher": "symsq",
+  "version": "0.0.1",
+  "engines": { "vscode": "^1.0.0" },
+
+  "contributes": {
+    "languages": [
+      {
+        "id": "sml",
+        "aliases": ["SML"],
+        "extensions": [".sml"]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "sml",
+        "scopeName": "source.sml",
+        "path": "./syntaxes/sml.tmLanguage.json"
+      }
+    ]
+  }
+}

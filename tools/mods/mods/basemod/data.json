@@ -1,0 +1,105 @@
+{
+    "items": [
+        {
+            "name": "iron ore",
+            "max_stack": 100,
+            "texture": "textures/items/iron_ore.png",
+            "description": "A chunk of iron ore. Can be smelted into iron plates."
+        },
+        {
+            "name": "iron plate",
+            "max_stack": 150,
+            "texture": "textures/items/iron_plate.png",
+            "description": "A plate of iron, produced from smelting iron ore."
+        },
+        {
+            "name": "iron cog",
+            "max_stack": 50,
+            "texture": "textures/items/iron_cog.png",
+            "description": "A simple iron cog, used in machines."
+        },
+        {
+            "name": "iron wire",
+            "max_stack": 50,
+            "texture": "textures/items/iron_wire.png",
+            "description": "A thin iron wire, used for electrical connections."
+        },
+        {
+            "name": "copper ore",
+            "max_stack": 100,
+            "texture": "textures/items/copper_ore.png",
+            "description": "A chunk of copper ore. Can be smelted into copper plates."
+        },
+        {
+            "name": "copper plate",
+            "max_stack": 150,
+            "texture": "textures/items/copper_plate.png",
+            "description": "A plate of copper, produced from smelting copper ore."
+        },
+        {
+            "name": "copper cog",
+            "max_stack": 50,
+            "texture": "textures/items/copper_cog.png",
+            "description": "A simple copper cog, used in machines."
+        },
+        {
+            "name": "copper wire",
+            "max_stack": 50,
+            "texture": "textures/items/copper_wire.png",
+            "description": "A thin copper wire, used for electrical connections."
+        },
+        {
+            "name": "coal",
+            "max_stack": 100,
+            "texture": "textures/items/coal.png",
+            "description": "A piece of coal. Used as fuel for furnaces."
+        }
+    ],
+    "buildings": [
+        {
+            "name": "conveyor belt",
+            "max_stack": 100,
+            "texture": "textures/buildings/belt.png",
+            "description": "A belt that transports items from one place to another.",
+
+            "animation_type": "static",           
+            "script": "scripts/belt.lua"
+        },
+        {
+            "name": "mechanical arm",
+            "max_stack": 50,
+            "texture": "textures/buildings/arm.png",
+            "description": "A mechanical arm that moves items between machines.",
+
+            "animation_type": "static",           
+            "script": "scripts/arm.lua"
+        },
+        {
+            "name": "chest",
+            "max_stack": 50,
+            "texture": "textures/buildings/chest.png",
+            "description": "A chest for storing items.",
+
+            "animation_type": "static",           
+            "script": "scripts/chest.lua"
+        },
+        {
+            "name": "creative chest",
+            "max_stack": 50,
+            "texture": "textures/buildings/cchest.png",
+            "description": "A creative chest with unlimited storage for testing purposes.",
+
+            "animation_type": "static",           
+            "script": "scripts/cchest.lua"
+        },
+        {
+            "name": "furnace",
+            "max_stack": 50,
+            "texture": "textures/buildings/furnace.png",
+            "description": "A furnace that smelts ores into plates.",
+
+            "animation_type": "static",           
+            "script": "scripts/furnace.lua"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+  "items": [
+    {
+      "stackcount": 200,
+      "name": "belt"
+    },
+    {
+      "stackcount": 50,
+      "name": "arm"
+    },
+    {
+      "stackcount": 50,
+      "name": "chest"
+    },
+    {
+      "stackcount": 50,
+      "name": "creative chest"
+    },
+    {
+      "stackcount": 50,
+      "name": "furnice"
+    },
+    {
+      "stackcount": 50,
+      "name": "asembler From Factorio"
+    },
+    {
+      "stackcount": 100,
+      "name": "iron ore"
+    },
+    {
+      "stackcount": 150,
+      "name": "iron plate"
+    },
+    {
+      "stackcount": 50,
+      "name": "iron cog"
+    },
+    {
+      "stackcount": 50,
+      "name": "iron wire"
+    },
+    {
+      "stackcount": 100,
+      "name": "copper ore"
+    },
+    {
+      "stackcount": 150,
+      "name": "copper plate"
+    },
+    {
+      "stackcount": 50,
+      "name": "copper cog"
+    },
+    {
+      "stackcount": 50,
+      "name": "copper wire"
+    },
+    {
+      "stackcount": 100,
+      "name": "coal"
+    }
+
+  ]
+}

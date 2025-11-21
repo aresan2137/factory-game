@@ -1,0 +1,39 @@
+{
+  "scopeName": "source.sml",
+  "patterns": [
+    {
+      "name": "comment.line.sml",
+      "match": "^/.*$"
+    },
+
+    {
+      "name": "entity.name.function.sml",
+      "match": "^\\.[A-Za-z_][A-Za-z0-9_]*"
+    },
+
+    {
+      "name": "keyword.control.macro.sml",
+      "match": "^![A-Za-z_][A-Za-z0-9_]*"
+    },
+
+    {
+      "name": "keyword.operator.command.sml",
+      "match": "^#[A-Za-z_][A-Za-z0-9_]*"
+    },
+
+    {
+      "name": "variable.other.sml",
+      "match": "_[A-Za-z0-9_]*"
+    },
+
+    {
+      "name": "constant.numeric.sml",
+      "match": "\\b\\d+\\b"
+    },
+
+    {
+      "name": "string.quoted.sml",
+      "match": "\"([^\"\\\\]|\\\\.)*\""
+    }
+  ]
+}
